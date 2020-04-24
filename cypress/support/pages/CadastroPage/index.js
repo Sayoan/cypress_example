@@ -48,7 +48,7 @@ class Cadastro {
   }
 
   validarSubmeter(){
-    cy.get(el.txtResultadoCriar).invoke('text').should('include', 'Usuário asas com sucesso');
+    cy.get(el.txtResultadoCriar).invoke('text').should('include', 'Usuário Criado com sucesso');
   }
   retornoErros(){
     cy.get(el.txtResultadoErros).invoke('text').should('include', '1 error proibiu que este usuário fosse salvo:');
