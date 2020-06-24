@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.295" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-06-24T18:07:38" tests="0" file="cypress\integration\tests\criarusuariotests.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="hometests" timestamp="2020-06-24T18:07:38" tests="2" failures="1" time="2.295">
+    <testcase name="hometests CadastrarUsuario" time="0" classname="CadastrarUsuario">
+      <failure message="Timed out retrying: expected &apos;Usuário Criado com sucesso&apos; to include &apos;Usuário asas com sucesso&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: expected 'Usuário Criado com sucesso' to include 'Usuário asas com sucesso'
+    at applyChainer (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:131857:32)
+    at https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:131898:16
+    at arrayReduce (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:18403:21)
+    at Function.reduce (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:27401:14)
+    at applyChainers (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:131888:18)
+    at tryCatcher (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:9059:23)
+    at Function.Promise.attempt.Promise.try (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:6333:29)
+    at Context.shouldFn (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:131902:23)
+    at Context.should (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:131917:23)
+    at https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:127813:39
+    at assertions (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:128073:14)
+    at tryCatcher (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:9059:23)
+    at Object.gotValue (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:8203:18)
+    at Object.gotAccum (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:8190:25)
+    at Object.tryCatcher (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:9059:23)
+    at Promise._settlePromiseFromHandler (https://automacaocombatista.herokuapp.com/__cypress/runner/cypress_runner.js:6994:31)]]></failure>
+    </testcase>
+    <testcase name="hometests ValidarCampoObrigatorio" time="2.295" classname="ValidarCampoObrigatorio">
+    </testcase>
+  </testsuite>
+</testsuites>

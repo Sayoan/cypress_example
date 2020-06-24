@@ -1,0 +1,36 @@
+{
+  "dados":[
+     {
+        "codigoBoleto":3137860,
+        "codigoParcela":791178,
+        "codigoNegociacao":null,
+        "dataVencimentoAntecipado":null,
+        "dataVencimento":"2020-03-10T00:00:00",
+        "codigoStatusParcela":4,
+        "descricaoStatusParcela":"Aberto",
+        "valorLiquidoParcela":1565.0071882580,
+        "valorMulta":30.077000,
+        "valorMora":31.0801882580,
+        "valorAbatimento":0.0,
+        "valorDescontoCondicionado":0.0,
+        "dataPagamento":null,
+        "valorPago":null,
+        "codigoPeriodofinanceiro":10,
+        "siglaPeriodoFinanceiro":"2020/1",
+        "linhaDigitavel":"",
+        "codigoTipoBoleto":1,
+        "descricaoTipo":"Mensalidade Educacional",
+        "descricaoItemServico":"Mensalidade Curso",
+        "dataCompetencia":"2020-03-01T00:00:00",
+        "descricaoCompetencia":"Março/2020",
+        "possuiNotaFiscalGerada":false,
+        "numeroParcela":3,
+        "numeroParcelamento":1,
+        "numeroTotalParcelamento":1,
+        "descricaoParcelamento":"Única",
+        "descricaoTipoBoleto":"Mensalidade Março de 2020",
+        "valorParcela":1503.8500000000
+     }
+  ],
+  "totalRegistros":1
+}
